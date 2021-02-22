@@ -4,12 +4,17 @@
 }
 
 .container {
+    /* верстаем флексами, не использую колоночную сетку бутстрапа, поэтому создаем один контейнер с информацией */
     max-width: 950px;
     margin: 0 auto;
+    /* выравниваем контейнер по центру */
 }
 
+
+/* создаем привязку - импорт файла из папки blocks */
+
 @import 'blocks/promo';
-@import 'blocks/header.scss';
+@import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/titles';

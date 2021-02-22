@@ -13,26 +13,35 @@
 
 <body>
     <div class="promo">
+        <!-- верстаем флексами, не использую колоночную сетку бутстрапа, поэтому создаем один контейнер с информацией -->
         <div class="container">
+            <!-- создаем по БЕМу блок header -->
             <header class="header">
+                <!-- создаем элементы  header__logo, header__official, header__contacts -->
                 <a href="#" class="header__logo">
+                    <!-- логотип задаем через ссылку -->
                     <img src="icons/logo.png" alt="logo">
                 </a>
                 <div class="header__official">
                     Официальный представитель
                     <span>Garmin, Polar, Suunto</span>
+                    <!-- помещаем в span, чтобы отличать от др текста -->
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
+                    <!-- создаем кнопку отдельным блоком, будем переиспользовать на странице и не зависит от шапки в которой он находится -->
                     <button class="button">заказать звонок</button>
                 </div>
             </header>
 
             <div class="promo__wrapper">
+                <!-- создаем обертку для заголовков, БЭМ элемент -->
+                <!-- создаем заголовки - элементы БЕМ -->
                 <h1 class="promo__header">Подбор пульсометра</h1>
                 <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
-
+                <!-- создаем элементы БЕМ promo__icons-->
                 <div class="promo__icons">
+                    <!-- внутри создаем 3 элемента БЕМ promo__icon (.promo__icon*3*img) -->
                     <div class="promo__icon">
                         <img src="icons/main_screen/timer.png" alt="timer"> Время подбора: 10 минут
                     </div>
@@ -43,7 +52,7 @@
                         <img src="icons/main_screen/messages.png" alt="messages"> Ответим на все вопросы
                     </div>
                 </div>
-
+                <!-- создаем блок button с модификатором button_main - гл кнопка -->
                 <button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
                 <div class="promo__link">
                     или

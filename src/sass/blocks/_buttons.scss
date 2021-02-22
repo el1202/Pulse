@@ -1,14 +1,20 @@
 .button {
+    /* задаем параметры базовой кнопки */
     width: 150px;
     height: 30px;
     border-radius: 5px;
     background-color: $main-color;
+    /* ссылка, цвет задаем в файле _variables.scss */
     border: none;
+    /* убираем бордюр */
+    // задаем параметры текста
     color: #ffffff;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
     &_main {
+        /* задаем параметры кнопки button_main из блока promo__wrapper, вторая (большая) кнопка */
+        // повторябщие свойства с верхним пунком убираем
         margin-top: 67px;
         width: 300px;
         height: 50px;

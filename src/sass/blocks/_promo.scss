@@ -1,14 +1,19 @@
 .promo {
     min-height: 650px;
+    /* мин высота */
     padding: 21px 0 93px 0;
-    background: url(../img/main.jpg) center (center/cover) no-repeat;
+    /* отступы сверху и снизу */
+    background: url(../../img/main.jpg) center (center/cover) no-repeat;
     &__wrapper {
+        /* задаем параметры wrapper */
         display: flex;
         flex-direction: column;
+        /* расположение колонка */
         align-items: flex-end;
         margin-top: 90px;
     }
     &__header {
+        /* задаем параметры звголовка h1 */
         color: #ffffff;
         font-size: 42px;
         font-weight: 700;
@@ -16,6 +21,7 @@
         line-height: 42px;
     }
     &__subheader {
+        /* задаем параметры звголовка h2 */
         margin-top: 17px;
         color: #ffffff;
         font-size: 24px;
@@ -24,24 +30,28 @@
         text-transform: uppercase;
     }
     &__icons {
+        /* задаем параметры элемента promo__icons */
         margin-top: 65px;
         width: 425px;
         display: flex;
         justify-content: space-between;
     }
     &__icon {
+        /* задаем параметры элемента promo__icon */
         width: 108px;
         text-align: center;
         color: #ffffff;
         font-size: 14px;
         font-weight: 500;
         img {
+            /* задаем параметры иконок */
             display: block;
             margin: 0 auto;
             margin-bottom: 20px;
         }
     }
     &__link {
+        /* задаем параметры ссылки для текста ПЕРЕЙТИ В КАТАЛОГ */
         color: #ffffff;
         font-size: 16px;
         font-weight: 500;
