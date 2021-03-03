@@ -21,3 +21,17 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 575px) {
+    .button {
+        width: 120px;
+        height: 28px;
+        font-size: 10px;
+        &_main {
+            margin-top: 40px;
+            width: 200px;
+            height: 38px;
+            font-size: 12px;
+        }
+    }
+}
