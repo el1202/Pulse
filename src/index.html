@@ -98,6 +98,31 @@
             </div>
         </div>
     </div>
+
+     <div class="consultation">
+        <div class="container">
+            <h2 class="title title_left"> <!-- title_left - задаем модификацию блока, в файле _title.scss - задае свойства данного заголовка -->
+                Получите бесплатную консультацию<br>
+                по подбору пульсометра 
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br> 
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class="feed-form" action="#"> <!-- блок формы отправки данных -->
+                <input name="name" required placeholder="Ваше имя" type="text"> <!-- placeholder - атрибут инпута, надпись в поле инпута -->
+                <!-- require - атрибут инпута, красн звездачка указывающая на обязательно заполняеые поля -->
+                <!-- name - обязат атрибут, используется для распознания скриптами для правильной работы -->
+                <input name="phone" required placeholder="Ваш телефон" type="number"> <!--type="number"- поле будет воспринимать только цифры, буквы ввести не сможем -->
+                <input name="email" required placeholder="Ваш E-mail" type="email"> 
+
+                <button class="button button_submit">заказать консультацию</button>
+                <!-- ="button button_submit" - указываем блок и модификатор -->
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

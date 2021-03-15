@@ -20,9 +20,17 @@
         height: 50px;
         font-size: 16px;
     }
+
+    &_submit { /* модификатор, стилтзуем кнопку для оправки форы из блока consultation - forms */
+        width: 100%; /* ширина кнопки, 100% - будет подстраиваться под ширину форы */
+        height: 55px; /* высота */
+        font-size: 16px;
+
+    }
 }
 
-@media (max-width: 575px) {
+// --------------мобильная верстка-----------------
+@media (max-width: 575px) { 
     .button {
         width: 120px;
         height: 28px;
@@ -33,5 +41,7 @@
             height: 38px;
             font-size: 12px;
         }
+
+
     }
 }

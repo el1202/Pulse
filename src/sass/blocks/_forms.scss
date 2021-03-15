@@ -1,0 +1,20 @@
+.feed-form {
+    margin-top: 36px;
+    display: flex; /* выравниваем элементы */
+    flex-direction: column; /* выравнивание - колонка */
+    width: 300px; /* ширина формы */
+    input {
+        height: 50px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        margin-bottom: 15px;
+        border: none; /* убираем бардюр */
+        padding: 0 20px; /* отступы для текста внутри поля инпута*/
+        color: #4b4b4b;
+        font-size: 14px;
+        font-weight: 300;
+        &:nth-child(3) { /* создае псевдо-класс и последнему элементу инпута (поле для email) задае отступ снизу */
+            margin-bottom: 20px;
+        }
+    }
+}

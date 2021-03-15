@@ -3,4 +3,10 @@
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase; /* текст в вверхнем регистре */
+    &_left { /* задаем параметры заголовка в блоке consultation */
+        color: #fff;
+        font-size: 36px;
+        text-align: left;
+    }
 }
